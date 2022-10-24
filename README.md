@@ -1,16 +1,21 @@
 # mvvm_news_app
 
-A new Flutter project.
+![Flutter News App](https://github.com/amer787/flutter-news-app-mvvm/blob/main/screenshots/newsApp.png)
 
-## Getting Started
+# Flutter News App
+News App developed with Flutter and API from [News API](https://newsapi.org)
 
-This project is a starting point for a Flutter application.
+## Usage
+1. Please open file   `lib/repository/news_api.dart`   and change `YOUR API KEY` in the variable `keyApi` with your own.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technology
+1. http<br />
+This package contains a set of high-level functions and classes that make it easy to consume HTTP resources. It's multi-platform, and supports mobile, desktop, and the browser.
+2. MVVM Architecture<br />
+Model-View-ViewModel (MVVM) is a software design pattern that is structured to separate program logic and user interface controls.
+3. Url Launcher<br />
+Flutter plugin for launching a URL in the mobile platform. Supports iOS and Android.
+4. JSON Serializable<br />
+Automatically generate code for converting to and from JSON by annotating Dart classes.
+5. card_swiper<br />
+Swiper/Carousel for flutter, with multiple layouts, infinite loop. Compatible with Android & iOS.
